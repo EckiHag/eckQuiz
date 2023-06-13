@@ -1,0 +1,7 @@
+/* Style the footer of the Quiz component */
+.quiz-footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #999;
+  margin-top: 20px;
+}

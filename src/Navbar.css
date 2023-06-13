@@ -1,0 +1,36 @@
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #555;
+}
+.submenu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
