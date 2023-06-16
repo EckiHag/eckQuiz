@@ -8,6 +8,7 @@ nav {
 
 ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -27,10 +28,31 @@ a {
 a:hover {
   background-color: #555;
 }
+
 .submenu {
-  display: flex;
+  display: none;
   flex-direction: column;
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+li:hover .submenu {
+  display: flex;
+  position: absolute;
+  background-color: #333;
+  padding: 10px;
+}
+
+.submenu li {
+  margin: 5px;
+}
+
+.submenu a {
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.submenu a:hover {
+  background-color: #555;
 }

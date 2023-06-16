@@ -6,16 +6,16 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-        Quiz SuS Gymnasium Porta Westfalica
+        Quiz SuS Gymnasium Porta
       </Link>
       <ul>
-        <CustomLink to="/quiz">Quiz</CustomLink>
         <CustomLink to="/thesomat">Thesomat</CustomLink>
         <CustomLink to="/provakomat">Provakomat</CustomLink>
         <CustomLink to="/objectquiz">Objectquiz</CustomLink>
         <CustomLink to="/objectquiz/klasse5Verschiedene">Jg5</CustomLink>
         <CustomLink to="/objectquiz/klasse7Verschiedene">Jg7</CustomLink>
         <CustomLink to="/objectquiz/klasse9Verschiedene">Jg9</CustomLink>
+        <CustomLink to="/objectquiz/klasse11Q1Verschiedene">Q1</CustomLink>
       </ul>
     </nav>
   )

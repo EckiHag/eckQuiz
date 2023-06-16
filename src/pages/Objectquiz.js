@@ -7,6 +7,7 @@ import { fragenCurrent } from "../fragen/FragenCurrent"
 import { klasse5Verschiedene } from "../fragen/Klasse5Verschiedene"
 import { klasse7Verschiedene } from "../fragen/Klasse7Verschiedene"
 import { klasse9Verschiedene } from "../fragen/Klasse9Verschiedene"
+import { klasse11Q1Verschiedene } from "../fragen/Klasse11Q1Verschiedene"
 import { Link } from "react-router-dom"
 
 export default function Objectquiz() {
@@ -53,6 +54,10 @@ export default function Objectquiz() {
       case "klasse9Verschiedene":
         fragenUndAntworten = klasse9Verschiedene
         titel = "für Klasse 9"
+        break
+      case "klasse11Q1Verschiedene":
+        fragenUndAntworten = klasse11Q1Verschiedene
+        titel = "für Q1"
         break
       default:
       // Code, der ausgeführt wird, wenn ausdruck keinem der vorherigen Werte entspricht
@@ -104,7 +109,7 @@ export default function Objectquiz() {
               {[...Array(themenAnzahl)].map((_, j) => (
                 <td key={j} className={clickedCells.some((cell) => cell[0] === i && cell[1] === j) ? "clicked" : ""} onClick={() => handleClick(i, j)}>
                   <Link to={`/objectfrage?spalte=${j}&zeile=${i}&quizname=${quizName}`} className="symbol">
-                    <img src="../icons/Rocket.png" alt="EditPencil-square" width="60" />
+                    <img src="../icons/Rocket.png" alt="EditPencil-square" />
                   </Link>
                 </td>
               ))}

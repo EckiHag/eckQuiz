@@ -9,6 +9,7 @@ import { fragenCurrent } from "../fragen/FragenCurrent"
 import { klasse5Verschiedene } from "../fragen/Klasse5Verschiedene"
 import { klasse7Verschiedene } from "../fragen/Klasse7Verschiedene"
 import { klasse9Verschiedene } from "../fragen/Klasse9Verschiedene"
+import { klasse11Q1Verschiedene } from "../fragen/Klasse11Q1Verschiedene"
 import { jokerGifs } from "../antworten/jokerGifs"
 
 export default function ObjectFrage() {
@@ -38,6 +39,9 @@ export default function ObjectFrage() {
         break
       case "klasse9Verschiedene":
         fragenUndAntworten = klasse9Verschiedene
+        break
+      case "klasse11Q1Verschiedene":
+        fragenUndAntworten = klasse11Q1Verschiedene
         break
       default:
       // Code, der ausgeführt wird, wenn ausdruck keinem der vorherigen Werte entspricht
@@ -111,7 +115,7 @@ export default function ObjectFrage() {
             </div>
             {showAnswer && (
               <div>
-                <p className="answer-info">{message1}</p>
+                <p className="answer-info-spruch">{message1}</p>
                 <p className="answer-info">{message2}</p>
               </div>
             )}

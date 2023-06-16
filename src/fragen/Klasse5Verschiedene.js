@@ -82,7 +82,7 @@ export const klasse5Verschiedene = [
       {
         question: "Was ist das Ergebnis von 5 * 3?",
         options: ["8", "12", "15", "18"],
-        answer: "2",
+        answer: "3",
       },
       {
         question: "Wie viele Seiten hat ein Rechteck?",
