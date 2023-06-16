@@ -41,3 +41,5 @@ Wunder: [
 ]
 
 ...
+
+Neues Schema nur für git.
