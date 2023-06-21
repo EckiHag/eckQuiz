@@ -13,15 +13,15 @@ export const klasse11Q1Verschiedene = [
       },
       {
         question: "Welches Gleichnis verwendet Jesus oft, um das Reich Gottes zu erklären?",
-        options: ["Das Gleichnis vom verlorenen Sohn", "Das Gleichnis vom barmherzigen Samariter", "Das Gleichnis vom Sämann", "Das Gleichnis vom reichen Mann und Lazarus"],
+        options: ["Das Gleichnis vom verlorenen Huhn", "Das Gleichnis vom barmherzigen Samariter", "Das Gleichnis vom Himmelszelt", "Das Gleichnis vom reichen Schmuckhändler"],
         answer: "2",
       },
       {
         question: "Welche Aussage trifft am besten auf das Reich Gottes zu?",
         options: [
           "Es ist ein materielles Königreich auf der Erde.",
-          "Es ist ein geistliches Reich, das im Himmel existiert.",
-          "Es ist eine Metapher für den inneren Frieden in einem Menschen.",
+          "Es ist ein geistliches Reich, schon jetzt und noch nicht ist.",
+          "Es ist eine Metapher für den Frieden zwischen den Völkern.",
           "Es ist eine politische Bewegung zur Veränderung der Gesellschaft.",
         ],
         answer: "2",
@@ -62,9 +62,9 @@ export const klasse11Q1Verschiedene = [
         answer: "1",
       },
       {
-        question: "Welches Wunder wird oft als erstes von Jesus in der Bibel beschrieben?",
+        question: "Welches Wunder wird bei Johannes als erstes von Jesus in der Bibel beschrieben?",
         options: ["Die Verwandlung von Wasser in Wein", "Die Heilung eines Aussätzigen", "Die Stillung des Sturms auf dem See", "Die Heilung eines Gelähmten"],
-        answer: "3",
+        answer: "1",
       },
       {
         question: "Joker",
@@ -82,7 +82,7 @@ export const klasse11Q1Verschiedene = [
         answer: "4",
       },
       {
-        question: "Welches Wunder wird oft als letztes und bedeutendstes von Jesus in der Bibel beschrieben?",
+        question: "Welches Wunder wird bei Johannes als letztes und bedeutendstes von Jesus in der Bibel beschrieben?",
         options: ["Die Auferweckung eines Toten", "Die Heilung eines Blinden", "Die Verwandlung von Wasser in Wein", "Die Speisung der 5.000"],
         answer: "1",
       },
@@ -111,12 +111,12 @@ export const klasse11Q1Verschiedene = [
         answer: "3",
       },
       {
-        question: "Welcher Philosoph prägte den Satz 'Religion ist Sünde'?",
-        options: ["Platon", "Thomas von Aquin", "William Paley", "Karl Barth"],
+        question: "Welcher Theologe prägte den Satz 'Religion ist Sünde'?",
+        options: ["Rudolf Bultmann", "Thomas von Aquin", "William Paley", "Karl Barth"],
         answer: "4",
       },
       {
-        question: "Welches Konzept besagt, dass es unmöglich ist, eine größere Entität als Gott zu denken?",
+        question: "Welches Konzept besagt, dass es unmöglich ist, eine größere Entität (Einheit) als Gott zu denken?",
         options: ["Das kosmologische Argument", "Das teleologische Argument", "Das ontologische Argument", "Das moralische Argument"],
         answer: "3",
       },
@@ -194,9 +194,9 @@ export const klasse11Q1Verschiedene = [
         answer: "jokerGif.gif",
       },
       {
-        question: "Was kostet die Schule ca. pro Jahr pro Schüler?",
+        question: "Was kostet die Schule durchschnittlich (ca.) pro Jahr pro Schüler?",
         options: ["12000€", "8000€", "3000€", "1000€"],
-        answer: "4",
+        answer: "2",
       },
       {
         question: "Welche Bildungseinrichtung bietet eine Alternative zur herkömmlichen Schule und betont das selbstbestimmte Lernen?",
